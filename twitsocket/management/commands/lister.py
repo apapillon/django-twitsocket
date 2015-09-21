@@ -47,7 +47,7 @@ class Command(NoArgsCommand):
         users = self.get_users(Tweet.objects.all())
         for u in users:
             if u not in members:
-                print "Adding %s to list" % u
+                print("Adding %s to list" % u)
                 self.add_to_list(u)
                 time.sleep(1)
 
