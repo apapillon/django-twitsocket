@@ -1,5 +1,6 @@
+import json
+
 from django.db import models
-from django.utils import simplejson as json
 
 
 class Tweet(models.Model):

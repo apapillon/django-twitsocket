@@ -1,10 +1,10 @@
+import json
 import urllib2
 import urllib
 import time
 
 from django.conf import settings
 from django.core.management.base import NoArgsCommand
-from django.utils import simplejson as json
 
 import oauth2 as oauth
 
